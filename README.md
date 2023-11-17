@@ -15,14 +15,22 @@ Steps to use
     6. Select Generate.
     * To enter the app password, follow the instructions on your screen. The app password is the 16-character code that generates on your device.
     Select Done.
-- fill the .env configs
-    MAIL_MAILER=smtp
-    MAIL_HOST=smtp.gmail.com
-    MAIL_PORT=587
-    MAIL_USERNAME=youremail@gmail.com
-    MAIL_PASSWORD="generate app password from the above step"
-    MAIL_ENCRYPTION=tls
-    MAIL_FROM_ADDRESS=youremail@gmail.com
-    MAIL_FROM_NAME="${APP_NAME}"
+- fill the .env configs 
+
+        MAIL_MAILER=smtp
+
+        MAIL_HOST=smtp.gmail.com
+
+        MAIL_PORT=587
+
+        MAIL_USERNAME=youremail@gmail.com
+
+        MAIL_PASSWORD="generate app password from the above step"
+
+        MAIL_ENCRYPTION=tls
+
+        MAIL_FROM_ADDRESS=youremail@gmail.com
+        
+        MAIL_FROM_NAME="${APP_NAME}"
 
 * run the application 
