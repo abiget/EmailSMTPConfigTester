@@ -33,4 +33,6 @@ Steps to use
         
         MAIL_FROM_NAME="${APP_NAME}"
 
-* run the application 
+* run the application
+  
+    php artisan serve
